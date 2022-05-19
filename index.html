@@ -14,6 +14,8 @@
 <body>
   <div class="wrapper">
 
+
+
     <div class="admbutons">
       <a href="loginpage.html" >Log</a>
       <a href='rigisterpage.html' >Register</a>
@@ -23,7 +25,6 @@
 
     <div class="top-bar">
       <i id="more-music" class="material-icons">queue_music</i>  
-      
       <div class="music-list">
         <div class="header">
           <div class="row">
@@ -33,8 +34,8 @@
           <i id="close" class="material-icons">close</i>
         </div>
         <ul>
-          <!--music list from js -->
         </ul>
+        <audio id="main-audio" src=""></audio>
       </div>
 
 
@@ -49,10 +50,10 @@
       <p class="artist">t</p>
     </div>
     <div class="controls">
-        <button type="button" id="prev" class="material-icons musiccontrlole">skip_previous</button>
+        <button type="button" id="prev" class="material-icons prev musiccontrlole">skip_previous</button>
         <button type="button" id="puase" class="material-icons play musiccontrlole">play_arrow</button>
-        <button type="button" id="next" class="material-icons musiccontrlole">skip_next</button>
-        <button type="button" id="repeat-plist" class="material-icons musiccontrlole" title="Playlist looped">repeat</button>
+        <button type="button" id="next" class="material-icons next musiccontrlole">skip_next</button>
+        <button type="button" id="repeat-plist" class="material-icons repeat musiccontrlole" title="Playlist looped">repeat</button>
     </div>
 
 
@@ -60,11 +61,11 @@
 
   </div>
 
-  <script language="JavaScript" src="script.js">
-  </script>
   <script language="JavaScript" src="music-list.js"></script>
-
-
+  <script language="JavaScript" src="script.js">  </script>
+  <script language="JavaScript" src="plaupause.js"></script>
+  <script language="JavaScript" src="nextprev.js"></script>
+  <script language="JavaScript" src="listmusicf.js"></script>
 
 
 </body>
