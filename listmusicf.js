@@ -29,7 +29,6 @@ hidemusicbtn.addEventListener("click", ()=>{
 
 
   const allLiTag = ulTag.querySelectorAll("li");
-  console.log(allLiTag);
   for (let j = 0; j < allLiTag.length; j++) {
       
     if(allLiTag[j].classList.contains("playing")){

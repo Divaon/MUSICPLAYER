@@ -1,8 +1,7 @@
-const wrapper = document.querySelector(".wrapper"),
-musicImg = wrapper.querySelector(".img-area img"),
+const wrapper = document.querySelector(".wrapper");
 musicName = wrapper.querySelector(".song-details .name"),
 musicArtist = wrapper.querySelector(".song-details .artist"),
-musicAudio = wrapper.querySelector("#main-audio"),
+musicAudio = wrapper.querySelector("#main-audio")
 
 
 login = false;
@@ -19,4 +18,3 @@ function loadMusic(indexNumb){
   musicArtist.innerHTML = allMusic[indexNumb - 1].artist;
   musicAudio.src = `songs/${allMusic[indexNumb - 1].src}.mp3`;
 }
-
