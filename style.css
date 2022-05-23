@@ -94,12 +94,18 @@ body{
   }
 
   .top-bar{
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   .top-bar input{
       width: 30%;
+  }
+
+  .listc
+  {
+    font-size: 15px;
   }
 
   .controls{
@@ -250,6 +256,12 @@ body{
       box-shadow: 0px 2.5px 2.5px var(--black);
     }
   
+    .listc
+    {
+      font-size: 7px;
+    }
+  
+
     .adm{
       width: 100%;
       padding: 2px 3px;

@@ -5,31 +5,20 @@ let logins =
 ];
 
 
-
-
-// var curentuser= JSON.parse(localStorage.getItem("myKey"));
-// localStorage.setItem("myKey",JSON.stringify(curentuser));
-//localStorage.setItem("logins", JSON.stringify(logins)) ;
-
-
-
-//localStorage.setItem("Items", JSON.stringify(logins)) ;
 logins = JSON.parse(localStorage.getItem("Items"));
 
 
-console.log(typeof(logins)); 
-console.log(logins); 
 
 
 let curentuser = localStorage.getItem('user_saved') || "smth";
 
 
-const adm = document.querySelector(".adm"),
-musiclog = document.querySelector("#logininput"),
-enter = document.querySelector(".logine");
-reg = document.querySelector(".register");
-musicpassword = document.querySelector("#passwordinput");
-nickname=document.querySelector("#nameuser")
+const adm = document.querySelector(".adm");
+var musiclog = document.querySelector("#logininput");
+var enter = document.querySelector(".logine");
+var reg = document.querySelector(".register");
+var musicpassword = document.querySelector("#passwordinput");
+var nickname=document.querySelector("#nameuser");
 
 
 
